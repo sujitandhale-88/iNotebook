@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.main {
+  padding-bottom: 50px; /* Adjust the padding to accommodate the height of the copyright component */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+
