@@ -4,7 +4,7 @@ const Copyright = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div className="container mb-0">
+        <div className="container mb-0 mt-3">
         <footer className="footer mt-auto py-3 bg-light">
             <div className="container text-center">
                 <span className="text-muted">© {currentYear} iNotebook. All rights reserved.</span>
